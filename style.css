@@ -8,7 +8,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #330000, #a65700);
+    background:rgb(34, 34, 34);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,8 +30,8 @@
 textarea{
     width: 600px;
     height: 250px;
-    background: #ffb74c;
-    color: #5a3601;
+    background: #dbdbdb;
+    color: #000000;
     font-size: 20px;
     border: 0;
     outline: 0;
@@ -55,7 +55,7 @@ textarea::placeholder{
 
 button{
     background: #f69300;
-    color: #5a3601;
+    color: #000000;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 30px;
@@ -74,8 +74,8 @@ button img{
 
 select{
     flex: 1;
-    color: #5a3601;
-    background: #ffb74c;
+    color: #000000;
+    background: #dbdbdb;
     height: 50px;
     padding: 0 20px;
     outline: 0;
