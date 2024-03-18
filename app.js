@@ -22,5 +22,11 @@ btn.addEventListener("click", () => {
     window.speechSynthesis.speak(speech);
 });
 
+// Easy method
+// function speeak() {
+//     let synth = window.speechSynthesis;
+//     let voice = new SpeechSynthesisUtterance(`${textbox.value}`);
+//     synth.speak(voice);
+// }
 
 
